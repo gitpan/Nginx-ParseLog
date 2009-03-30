@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Nginx-ParseLog
-version:            1.00
+version:            1.01
 abstract:           module for parsing Nginx access log files (nginx.net).
 author:
     - nrg <nrg@cpan.org>

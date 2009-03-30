@@ -5,7 +5,7 @@ use warnings;
 
 package Nginx::ParseLog;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 
 =head1 NAME
@@ -14,8 +14,8 @@ Nginx::ParseLog - module for parsing Nginx access log files (nginx.net).
 
 =head1 SYNOPSIS
 
- Examples:
  use Nginx::ParseLog;
+ use Data::Dumper;
 
  my $log_string = '92.241.180.118 - - [28/Mar/2009:20:59:02 +0300] "GET / HTTP/1.1" 200 1706 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7"';
 
